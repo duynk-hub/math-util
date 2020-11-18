@@ -118,3 +118,8 @@ public class MathUtility {
 // tool có thể là: cmd, GUI(Git Desktop, Source Tree), chính IDE(cmd, click)
 // vì ta pro, ta chơi cmd
 // cài git scm đã nói download sẵn
+// file đặc biệt để nói vs git tool rằng: ai lên server, ai ở lại local
+// file này đc gọi là .gitinore (thuần text)
+// nó sẽ khác nhau content tùy vào IDE mình xài, ngôn ngữ lập trình mình xài 
+// có 1 gã dev cực kì dễ thương đã làm sẵn file ứng vs IDE, NNLT r
+// mình chỉ xin đem về xài https://gitignore.io
