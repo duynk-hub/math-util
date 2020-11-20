@@ -32,7 +32,7 @@ public class MathUtilityTest {
             
     }
         
-        @Test(expected = SQLException.class)
+        @Test(expected = IllegalArgumentException.class)
         public void GetFactorial_ThrowsException_IfInvalidArgument(){
             //ngoại lệ ko phải là value để assert()
             //chỉ có thể chụp nó lại
