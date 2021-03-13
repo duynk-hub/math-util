@@ -45,7 +45,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-#       - name: Build project with Ant
-#         run: ant -noinput -buildfile build.xml # Quá trình build sẽ cần đến file cấu hình build.xml, build-impl.xml
+      - name: Build project with Ant
+        run: ant -noinput -buildfile build.xml # Quá trình build sẽ cần đến file cấu hình build.xml, build-impl.xml
 
 # End of CI workflow file
